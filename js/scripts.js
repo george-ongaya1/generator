@@ -83,6 +83,14 @@ function calculateAkanName() {
             result.innerHTML = 
                 `Saturday: <span>${an}</span>`;
 
+                 else result.innerHTML =
+            `Wrong data used : <span>${an}</span>`;
+
+                 
+
+                 
+
+
                 
 
                            
