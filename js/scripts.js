@@ -42,10 +42,10 @@ function calculateAkaneName() {
         result.innerHTML = "Provide a valid Month!";
 
          else if (century === "" || isNaN(century))
-        result.innerHTML = "Provide a valid year!";
+        result.innerHTML = "Provide a valid century!";
 
          else if (digit === "" || isNaN(digit)) 
-        result.innerHTML = "Provide a valid year!";
+        result.innerHTML = "Provide valid year digits!";
 
 
 
