@@ -1,52 +1,55 @@
-/*
+
 window.onload = () => {
     let button = document.querySelector("#btn");
 
 // Function for calculating akan names
-    button.addEventListener("click", calculateAkanName);
+    button.addEventListener("click", calculateAkaneName);
 };
 
 
 
 
-function calculateAkanName() {
+function calculateAkaneName() {
      // Getting input from user into date variable.
-    Input is string so typecasting is necessary. //
+   // Input is string so typecasting is necessary.  //
     let date = parseInt(document
         .querySelector("#date").value);
 
         // Getting input from user into month variable.
-    Input is string so typecasting is necessary. //
-    let date = parseInt(document
+   // Input is string so typecasting is necessary. //
+    let month = parseInt(document
         .querySelector("#month").value);
 
         // Getting input from user into year variable.
-    Input century = parseInt(document
+    let century = parseInt(document
         .querySelector("#century").value); 
         
         // Getting input from user into year variable.
-    Input is string so typecasting is necessary. //
+    //Input is string so typecasting is necessary. //
     let digit = parseInt(document
         .querySelector("#digit").value);
 
 
-    
 
         let result = document.querySelector("#result");
 
      // Checking the user providing a proper
     // value or not
-    if (date === "" || isNaN(date) || date <=0 || date > 31)) 
+        if (date === "" || isNaN(date) || date <=0 || date > 31)
         result.innerHTML = "Provide a valid Date!";
   
-        else if (month === "" || isNaN(weight || month <=0 || month > 12)) 
+        else if (month === "" || isNaN(month) || month <=0 || month > 12)
         result.innerHTML = "Provide a valid Month!";
 
-         else if (century === "" || isNaN(century)) 
+         else if (century === "" || isNaN(century))
         result.innerHTML = "Provide a valid year!";
 
          else if (digit === "" || isNaN(digit)) 
         result.innerHTML = "Provide a valid year!";
+
+
+
+ 
 
  
     // If both input is valid, calculate the A
@@ -86,6 +89,9 @@ function calculateAkanName() {
                  else result.innerHTML =
             `Wrong data used : <span>${an}</span>`;
 
+             }
+}
+
                  
 
                  
@@ -96,11 +102,11 @@ function calculateAkanName() {
                            
 
 
-    }
-*/
+     
 
 
 
+/*----
 
 window.onload = () => {
     let button = document.querySelector("#btn");
@@ -112,12 +118,12 @@ window.onload = () => {
 function calculateBMI() {
   
     /* Getting input from user into height variable.
-    Input is string so typecasting is necessary. */
+    Input is string so typecasting is necessary. 
     let height = parseInt(document
             .querySelector("#height").value);
   
     /* Getting input from user into weight variable. 
-    Input is string so typecasting is necessary.*/
+    Input is string so typecasting is necessary.
     let weight = parseInt(document
             .querySelector("#weight").value);
   
@@ -148,5 +154,6 @@ function calculateBMI() {
   
         else result.innerHTML =
             `Over Weight : <span>${bmi}</span>`;
-    }
-}
+            */
+    
+
