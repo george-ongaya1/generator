@@ -75,9 +75,9 @@ function calculateAkanName() {
             result.innerHTML = 
                 `Thursday: <span>${an}</span>`;
 
-                 else if (an = 1) 
+                 else if (an = 5) 
             result.innerHTML = 
-                `Monday: <span>${an}</span>`;
+                `Friday: <span>${an}</span>`;
 
                            
 
