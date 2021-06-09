@@ -21,9 +21,15 @@ function calculateAkanName() {
         .querySelector("#month").value);
 
         // Getting input from user into year variable.
+    Input century = parseInt(document
+        .querySelector("#century").value); 
+        
+        // Getting input from user into year variable.
     Input is string so typecasting is necessary. //
-    let gender = parseInt(document
-        .querySelector("#year").value);
+    let digit = parseInt(document
+        .querySelector("#digit").value);
+
+
     
 
         let result = document.querySelector("#result");
@@ -36,14 +42,43 @@ function calculateAkanName() {
         else if (month === "" || isNaN(weight || month <=0 || month > 12)) 
         result.innerHTML = "Provide a valid Month!";
 
-         else if (year === "" || isNaN(year)) 
+         else if (century === "" || isNaN(century)) 
         result.innerHTML = "Provide a valid year!";
+
+         else if (digit === "" || isNaN(digit)) 
+        result.innerHTML = "Provide a valid year!";
+
  
     // If both input is valid, calculate the A
     else {
     
          // calculating Ghanian name
-        let ang =  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
+        let an =  ( ( (century/4) -2*century-1) + ((5*digit/4) ) + ((26*(month+1)/10)) + date ) % 7;
+
+         // Dividing as per the an conditions
+          if (an = 0) result.innerHTML =
+            `Sunday : <span>${an}</span>`;
+
+            else if (an = 1) 
+            result.innerHTML = 
+                `Monday: <span>${an}</span>`;
+
+                 else if (an = 2) 
+            result.innerHTML = 
+                `Tuesday: <span>${an}</span>`;
+
+                 else if (an = 1) 
+            result.innerHTML = 
+                `Wednesday: <span>${an}</span>`;
+
+                 else if (an = 1) 
+            result.innerHTML = 
+                `Monday: <span>${an}</span>`;
+
+                 else if (an = 1) 
+            result.innerHTML = 
+                `Monday: <span>${an}</span>`;
+
                            
 
 
