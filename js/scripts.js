@@ -20,31 +20,31 @@ function calculateAkanName() {
     let date = parseInt(document
         .querySelector("#month").value);
 
-        // Getting input from user into month variable.
+        // Getting input from user into year variable.
     Input is string so typecasting is necessary. //
     let gender = parseInt(document
-        .querySelector("#gender").value);
+        .querySelector("#year").value);
     
 
         let result = document.querySelector("#result");
 
      // Checking the user providing a proper
     // value or not
-    if (date === "" || isNaN(height)) 
+    if (date === "" || isNaN(date) || date <=0 || date > 31)) 
         result.innerHTML = "Provide a valid Date!";
   
-        else if (month === "" || isNaN(weight)) 
+        else if (month === "" || isNaN(weight || month <=0 || month > 12)) 
         result.innerHTML = "Provide a valid Month!";
 
-        else if (gender=== "" ||gender===!"M"||gender===!"F"  )) 
-        result.innerHTML = "Provide a valid Gender!";
+         else if (year === "" || isNaN(year)) 
+        result.innerHTML = "Provide a valid year!";
  
     // If both input is valid, calculate the A
     else {
     
          // calculating Ghanian name
-        let bmi = (weight / ((height * height) 
-                            / 10000)).toFixed(2);
+        let ang =  ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7;
+                           
 
 
     }
