@@ -27,6 +27,9 @@ function calculateAkanName() {
 
         let result = document.querySelector("#result");
 
+         // Checking the user providing a proper
+    // value or not
+
 
     }
 */
