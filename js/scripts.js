@@ -79,6 +79,12 @@ function calculateAkanName() {
             result.innerHTML = 
                 `Friday: <span>${an}</span>`;
 
+                else if (an = 6) 
+            result.innerHTML = 
+                `Saturday: <span>${an}</span>`;
+
+                
+
                            
 
 
