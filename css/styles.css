@@ -2,7 +2,10 @@ body{
 background-color: antiquewhite;
 font-family:Cochin;
 margin:50px;
+font-size:18px;
 }
 input{
 background-color: khaki;
+height:80px;
+width:100px;
 }

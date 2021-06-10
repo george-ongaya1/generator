@@ -7,8 +7,6 @@ window.onload = () => {
 };
 
 
-
-
 function calculateAkaneName() {
      // Getting input from user into date variable.
    // Input is string so typecasting is necessary.  //
