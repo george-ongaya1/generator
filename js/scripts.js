@@ -52,13 +52,13 @@ function calculateAkaneName() {
  
     // If both input is valid, calculate the A
     else {
+ 
     
          // calculating Ghanian name
-        let an =  ( ( (century/4) -2*century-1) + ((5*digit/4) ) + ((26*(month+1)/10)) + date ) % 7;
+        var an =  ( ( (century/4) -2*century-1) + ((5*digit/4) ) + ((26*(month+1)/10)) + date ) % 7;
 
          // Dividing as per the an conditions(
  
-
          
           if (an = 0) result.innerHTML =
             `Sunday : <span>${an}</span>`;
@@ -95,6 +95,30 @@ function calculateAkaneName() {
 
 /*----------------------one html--------------------------------*/
  
+function validate(form) {
+    var isChecked = Array.prototype.some.call(form.querySelectorAll('input[name=gender]'), function (radio) {
+        return radio.checked;
+    });
+
+    if (!isChecked) {
+        alert("You must select Male or Female");
+    }
+
+    return isChecked;
+}
+
+document.getElementById('test').addEventListener('submit', function (evt) {
+    if (!validate(evt.target)) {
+        evt.preventDefault();
+    }
+});
+
+
+
+
+
+
+
 /*----
 
 window.onload = () => {
