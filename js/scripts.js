@@ -1,4 +1,4 @@
-
+ 
 window.onload = () => {
     let button = document.querySelector("#btn");
 
@@ -60,30 +60,30 @@ function calculateAkaneName() {
          // Dividing as per the an conditions(
  
          
-          if (an = 0) result.innerHTML =
+          if (an == 0||an<1) result.innerHTML =
             `Sunday : <span>${an}</span>`;
 
-            else if (an = 1) 
+            else if (an == 1||an<2) 
             result.innerHTML = 
                 `Monday: <span>${an}</span>`;
 
-                 else if (an = 2) 
+                 else if (an == 2||an<3)
             result.innerHTML = 
                 `Tuesday: <span>${an}</span>`;
 
-                 else if (an = 3) 
+                 else if (an == 3||an<4) 
             result.innerHTML = 
                 `Wednesday: <span>${an}</span>`;
 
-                 else if (an = 4) 
+                 else if (an == 4||an<5) 
             result.innerHTML = 
                 `Thursday: <span>${an}</span>`;
 
-                 else if (an = 5) 
+                 else if (an == 5||an<6) 
             result.innerHTML = 
                 `Friday: <span>${an}</span>`;
 
-                else if (an = 6) 
+                else if (an == 6||an<7) 
             result.innerHTML = 
                 `Saturday: <span>${an}</span>`;
 
@@ -92,26 +92,8 @@ function calculateAkaneName() {
 
              }
             }
-
-/*----------------------one html--------------------------------*/
- 
-function validate(form) {
-    var isChecked = Array.prototype.some.call(form.querySelectorAll('input[name=gender]'), function (radio) {
-        return radio.checked;
-    });
-
-    if (!isChecked) {
-        alert("You must select Male or Female");
-    }
-
-    return isChecked;
-}
-
-document.getElementById('test').addEventListener('submit', function (evt) {
-    if (!validate(evt.target)) {
-        evt.preventDefault();
-    }
-});
+            /*-------------------------------------*/
+            //Adding the gender variable that will define the name//
 
 
 
@@ -119,54 +101,6 @@ document.getElementById('test').addEventListener('submit', function (evt) {
 
 
 
-/*----
 
-window.onload = () => {
-    let button = document.querySelector("#btn");
-  
-    // Function for calculating BMI
-    button.addEventListener("click", calculateBMI);
-};
-  
-function calculateBMI() {
-  
-    /* Getting input from user into height variable.
-    Input is string so typecasting is necessary. 
-    let height = parseInt(document
-            .querySelector("#height").value);
-  
-    /* Getting input from user into weight variable. 
-    Input is string so typecasting is necessary.
-    let weight = parseInt(document
-            .querySelector("#weight").value);
-  
-    let result = document.querySelector("#result");
-  
-    // Checking the user providing a proper
-    // value or not
-    if (height === "" || isNaN(height)) 
-        result.innerHTML = "Provide a valid Height!";
-  
-    else if (weight === "" || isNaN(weight)) 
-        result.innerHTML = "Provide a valid Weight!";
-  
-    // If both input is valid, calculate the bmi
-    else {
-  
-        // Fixing upto 2 decimal places
-        let bmi = (weight / ((height * height) 
-                            / 10000)).toFixed(2);
-  
-        // Dividing as per the bmi conditions
-        if (bmi < 18.6) result.innerHTML =
-            `Under Weight : <span>${bmi}</span>`;
-  
-        else if (bmi >= 18.6 && bmi < 24.9) 
-            result.innerHTML = 
-                `Normal : <span>${bmi}</span>`;
-  
-        else result.innerHTML =
-            `Over Weight : <span>${bmi}</span>`;
-            */
-    
 
+            /*-------------------------------------*/
