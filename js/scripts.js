@@ -28,7 +28,6 @@ function calculateAkaneName() {
         .querySelector("#digit").value);
 
 
-
         let result = document.querySelector("#result");
 
      // Checking the user providing a proper
@@ -94,9 +93,30 @@ function calculateAkaneName() {
             }
             /*-------------------------------------*/
             //Adding the gender variable that will define the name//
+               // Getting input from user into year variable.
+            //Input is string so typecasting is necessary. //
+            let digit = parseInt(document
+            .querySelector("#gender").value);
 
+             // Checking the user providing a proper
+            // value or not
+            let akane= document.querySelector("#akane");
 
+            if (input.length < 1) 
+                akane.innerHTML =
+                    'Please enter a gender identity with at least 1 letter';
+                    
+            if (date === "" || isNaN(date) || date <=0 || date > 31)
+        result.innerHTML = "Provide a valid Date!";
+  
+        else if (month === "" || isNaN(month) || month <=0 || month > 12)
+        result.innerHTML = "Provide a valid Month!";
 
+         else if (century === "" || isNaN(century))
+        result.innerHTML = "Provide a valid century!";
+
+         else if (digit === "" || isNaN(digit)) 
+        result.innerHTML = "Provide valid year digits!";
 
 
 
