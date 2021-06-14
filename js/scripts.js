@@ -4,7 +4,6 @@ window.onload = () => {
 
 // Function for calculating akan names
     button.addEventListener("click", calculateAkaneName);
-    button.addEventListener("click", akaneGenerate);
 };
 
 
@@ -27,6 +26,7 @@ function calculateAkaneName() {
     //Input is string so typecasting is necessary. //
     let digit = parseInt(document
         .querySelector("#digit").value);
+
 
 
         let result = document.querySelector("#result");
@@ -92,30 +92,3 @@ function calculateAkaneName() {
 
              }
             }
-            /*-------------------------------------*/
-            function  akaneGenerate() {
-            //Adding the gender variable that will define the name//
-               // Getting input from user into year variable.
-            //Input is string so typecasting is necessary. //
-            let digit = parseInt(document
-            .querySelector("#gender").value);
-
-             // Checking the user providing a proper
-            // value or not
-            let akane= document.querySelector("#akane");
-
-        
-            if (gender=== "" || gender <=1 || gender > 1)
-            result.innerHTML = "Provide a valid Gender";
-
-            else {
-
-                var an = 
-            }
-
-
-
-
-
-
-            /*-------------------------------------*/
