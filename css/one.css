@@ -55,7 +55,7 @@ body {
   font-weight: 400;
 }
 
-fieldset {
+label {
   border: medium none !important;
   margin: 0 0 10px;
   min-width: 100%;
@@ -70,7 +70,7 @@ fieldset {
  {
   width: 100%;
   border: 1px solid #ccc;
-  background: #FFF;
+  background: #fff5b9;
   margin: 0 0 5px;
   padding: 10px;
 }
@@ -91,7 +91,7 @@ fieldset {
   resize: none;
 }
 
-.myform button[type="submit"] {
+#get-name [type="submit"] {
   cursor: pointer;
   width: 100%;
   border: none;
@@ -102,13 +102,13 @@ fieldset {
   font-size: 15px;
 }
 
-.myform button[type="submit"]:hover {
+#get-name [type="submit"]:hover {
   background: #43A047;
   transition: background-color 0.3s ease-in-out;
 }
 
-.myform  button[type="submit"]:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+#get-name [type="submit"]:active {
+  box-shadow: inset 0 1px 40px rgba(0, 0, 0, 0.5);
 }
 
 .copyright {

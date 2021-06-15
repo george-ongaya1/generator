@@ -154,9 +154,9 @@ function getAkanName () {
           return false;
           break;
         default:
-          alert("mmh no Akan name for you");
+          alert("change your input for a chance at an akan name");
         }
       } else{
-        alert("You entered invalid month or day");
+        alert("You entered incorrect month or day");
       }
     }
