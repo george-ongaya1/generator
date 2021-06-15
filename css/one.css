@@ -27,20 +27,17 @@ body {
   
 }
 
-.myform input[type="text"],
-.myform  input[type="email"],
-.myform input[type="tel"],
-.myform input[type="url"],
-.myform  textarea,
+.myform label[type="number"],
+.myform  label[type="number"],
 .myform  button[type="submit"] {
   font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
 }
-
-#contact {
+.myform, .bottom
+ {
   background: #F9F9F9;
   padding: 25px;
   margin: 150px 0;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 #contact h3 {
