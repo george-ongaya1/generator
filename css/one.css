@@ -14,10 +14,10 @@
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 30px;
   color: #777;
-  background: #4CAF50;
+  background: #89a2be;
 }
 
 .container {
@@ -70,7 +70,7 @@ label {
  {
   width: 100%;
   border: 1px solid #ccc;
-  background: #fff5b9;
+  background: #f2f5f8;
   margin: 0 0 5px;
   padding: 10px;
 }
