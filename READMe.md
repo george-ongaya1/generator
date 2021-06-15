@@ -9,6 +9,10 @@ This is a website showcasing my ability to comprehend and implement what i learn
 
 When applying html tags and css selectors,in a html document and javascript functions to stucture the relationship between a function keyword and its body as arguments are passed into the function head as local variables.
 
+The akane name generator, involves passing arguments to the functions(function getAkanName and function getGender) to enable validation of the form after receiving input from the user,in the html.
+
+in order to provide criteria to validate if the input,needs further alteration or the variables received from the id attributes in the html are correct and how the ouput will be displayed.
+
 https://github.com/george-ongaya1/generator.git
 
 ## Setup/Installation Requirements
@@ -23,8 +27,8 @@ corruptible file paths and conflicts in application of the block,inline elements
 html, css and js.
 
 ## Support and contact details
-gmail-georgeongaya94@gmail.com
-slack-george
+-gmail- georgeongaya94@gmail.com
+-slack- george
 
 ### License
 
