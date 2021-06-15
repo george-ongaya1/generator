@@ -12,8 +12,9 @@
  
     <div class="content">
         <div class="container">
-           
-          <form class="myform" onsubmit="return getAkanName()">
+            
+           <form class="myform" onsubmit="return getAkanName()">
+            <h1>Akane name generator</h1>
             <label for="year-of-birth">
               Year:
               <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
@@ -35,17 +36,23 @@
               <input id="female-input" type="radio" name="gender" value="female" required>
     
             </label>
+            
             <br><br>
             <input id="get-name" type="submit" name="" value="Generate name">
             <br><br>
-          </form>
-          <form onsubmit="return clearInput()">
+             
+            <h4 id = display-name><strong>Your Akan name is:</strong></h4>
+            <p id="result"></p>
             <input class="clear" type="submit" value="Clear input">
           </form>
+          <form onsubmit="return clearInput()">
+          
+
+            
+          
+          </form>
     
-          <div class="bottom">
-          <h4 id = display-name><strong>Your Akan name is:</strong></h4>
-          <p id="result"></p>
+          
           </div>
         </div>
       </div>
