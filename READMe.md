@@ -13,6 +13,8 @@ The akane name generator, involves passing arguments to the functions(function g
 
 in order to provide criteria to validate if the input,needs further alteration or the variables received from the id attributes in the html are correct and how the ouput will be displayed.
 
+i.e.Provided is your Akan name brother: -----
+
 https://github.com/george-ongaya1/generator.git
 
 ## Setup/Installation Requirements
@@ -27,8 +29,8 @@ corruptible file paths and conflicts in application of the block,inline elements
 html, css and js.
 
 ## Support and contact details
--gmail- georgeongaya94@gmail.com
--slack- george
+- gmail- georgeongaya94@gmail.com
+- slack- george
 
 ### License
 
